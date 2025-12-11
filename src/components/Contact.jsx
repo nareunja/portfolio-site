@@ -4,10 +4,7 @@ const Contact = () => {
     return (
         <section id="contact" className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4 relative z-20 border-t border-white/5 mt-32">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl md:text-5xl font-bold text-white mb-12 tracking-tight">
-                    Let's create something <br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-500">extraordinary.</span>
-                </h2>
+
 
                 <div className="flex flex-col gap-6 items-center">
                     <motion.a
