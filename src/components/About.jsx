@@ -13,7 +13,7 @@ const About = () => {
                             /profile.jpg
                         </div>
                         <img
-                            src="/profile.jpg"
+                            src="/me.jpg"
                             alt="Eom Jiwon"
                             className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity relative z-10"
                             onError={(e) => { e.target.style.display = 'none' }}
