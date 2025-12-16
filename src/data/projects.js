@@ -31,7 +31,13 @@ export const brandProjects = [
         desc: "Muju Wine Cave Rebranding",
         period: "2023.09 - 2023.12",
         img: "/brand_wine.jpg",
-        details: "Rebranding project for Muju Wine Cave (Meoru Gul). The identity captures the mystery of the cave and the richness of the wine, creating a premium and atmospheric brand experience."
+        details: "Rebranding project for Muju Wine Cave (Meoru Gul). The identity captures the mystery of the cave and the richness of the wine, creating a premium and atmospheric brand experience.",
+        detailImages: [
+            "/images/meoru/detail_01.jpg",
+            "/images/meoru/detail_02.jpg",
+            "/images/meoru/detail_03.jpg",
+            "/images/meoru/detail_04.jpg"
+        ]
     }
 ];
 
