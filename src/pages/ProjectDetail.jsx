@@ -92,6 +92,23 @@ const ProjectDetail = () => {
                         <p className="text-slate-500">No styleframes available.</p>
                     )}
                 </div>
+
+                {/* Optional Detail Images Stack (for Motion projects) */}
+                {project.detailImages && (
+                    <div className="max-w-7xl mx-auto mt-20">
+                        <h3 className="text-2xl font-bold mb-8 border-b border-white/20 pb-4">Details</h3>
+                        <div className="flex flex-col gap-0 w-full rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                            {project.detailImages.map((img, index) => (
+                                <img
+                                    key={index}
+                                    src={img}
+                                    alt={`${project.title} detail ${index + 1}`}
+                                    className="w-full h-auto"
+                                />
+                            ))}
+                        </div>
+                    </div>
+                )}
             </motion.div>
         );
     }

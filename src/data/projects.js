@@ -115,6 +115,13 @@ export const motionProjects = [
         img: "/motion_fly.jpg",
         details: "Character animation featuring 'Fly Fry'.",
         youtubeId: "WE2ts4y0fsQ",
-        styleframeImg: "/styleframe_fly.png"
+        styleframeImg: "/styleframe_fly.png",
+        detailImages: [
+            "/images/flyfry/detail_01.jpg",
+            "/images/flyfry/detail_02.jpg",
+            "/images/flyfry/detail_03.jpg",
+            "/images/flyfry/detail_04.jpg",
+            "/images/flyfry/detail_05.jpg"
+        ]
     },
 ];
