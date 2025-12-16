@@ -6,7 +6,14 @@ export const brandProjects = [
         desc: "Rebranding Project",
         period: "2023.03 - 2023.07",
         img: "/brand_lib.jpg",
-        details: "Comprehensive rebranding for Uijeongbu Music Library, focusing on connecting music, space, and people. The visual identity reflects the rhythm and flow of music within the architectural space."
+        details: "Comprehensive rebranding for Uijeongbu Music Library, focusing on connecting music, space, and people. The visual identity reflects the rhythm and flow of music within the architectural space.",
+        detailImages: [
+            "/images/library/detail_01.jpg",
+            "/images/library/detail_02.jpg",
+            "/images/library/detail_03.jpg",
+            "/images/library/detail_04.jpg",
+            "/images/library/detail_05.jpg"
+        ]
     },
     {
         id: "brand-2",
