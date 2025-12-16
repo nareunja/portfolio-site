@@ -15,7 +15,14 @@ export const brandProjects = [
         desc: "Vertical Farm Branding Project",
         period: "2025.04 - 2025.11",
         img: "/brand_plantier.jpg",
-        details: "Branding for Plantier, a futuristic vertical farming initiative. The design emphasizes sustainability, technology, and organic growth, using a clean and modern aesthetic."
+        details: "Branding for Plantier, a futuristic vertical farming initiative. The design emphasizes sustainability, technology, and organic growth, using a clean and modern aesthetic.",
+        detailImages: [
+            "/images/plantier/detail_01.jpg",
+            "/images/plantier/detail_02.jpg",
+            "/images/plantier/detail_03.jpg",
+            "/images/plantier/detail_04.jpg",
+            "/images/plantier/detail_05.jpg"
+        ]
     },
     {
         id: "brand-3",

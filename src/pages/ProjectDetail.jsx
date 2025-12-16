@@ -164,6 +164,20 @@ const ProjectDetail = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Detail Images Stack */}
+                {project.detailImages && (
+                    <div className="mt-20 flex flex-col gap-0 w-full">
+                        {project.detailImages.map((img, index) => (
+                            <img
+                                key={index}
+                                src={img}
+                                alt={`${project.title} detail ${index + 1}`}
+                                className="w-full h-auto shadow-2xl"
+                            />
+                        ))}
+                    </div>
+                )}
             </div>
         </motion.div>
     );
