@@ -21,6 +21,9 @@ const Hero = () => {
                 animate="animate"
                 className="relative z-10 p-12"
             >
+                <p className="text-neon-cyan tracking-[1em] text-sm md:text-lg font-light mb-[-1rem] ml-4 opacity-80">
+                    PORTFOLIO
+                </p>
                 <h1 className="relative text-[13vw] leading-none font-bold tracking-tighter text-white drop-shadow-2xl z-20 px-8 py-4 mix-blend-overlay opacity-90 font-montserrat">
                     STACKS
                 </h1>
