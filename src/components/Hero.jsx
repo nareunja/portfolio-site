@@ -22,7 +22,7 @@ const Hero = () => {
                 className="relative z-10 p-12"
             >
                 <h1 className="relative text-[13vw] leading-none font-bold tracking-tighter text-white drop-shadow-2xl z-20 px-8 py-4 mix-blend-overlay opacity-90 font-montserrat">
-                    PORTFOLIO
+                    STACKS
                 </h1>
             </motion.div>
 
